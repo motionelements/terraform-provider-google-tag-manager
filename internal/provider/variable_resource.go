@@ -216,7 +216,7 @@ func toApiVariable(resource resourceVariableModel, id bool) *tagmanager.Variable
 	return &tagmanager.Variable{
 		Name:       resource.Name.ValueString(),
 		Type:       resource.Type.ValueString(),
-		VariableId: resource.Id.String(),
+		VariableId: resource.Id.ValueString(),
 		Notes:      resource.Notes.ValueString(),
 		Parameter:  toApiParameter(resource.Parameter),
 	}
