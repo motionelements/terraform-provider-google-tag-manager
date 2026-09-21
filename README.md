@@ -24,7 +24,7 @@ This provider allows you to manage Google Tag Manager resources using Terraform.
 terraform {
   required_providers {
     gtm = {
-      source = "Manuel-Antunes/google-tag-manager"
+      source = "motionelements/google-tag-manager"
     }
   }
 }
